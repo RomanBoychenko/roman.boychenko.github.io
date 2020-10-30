@@ -1,0 +1,57 @@
+.social {
+    display: flex;
+    flex-direction: row;
+}
+
+.social__item {
+    margin-right: 30px;
+
+    &:last-child{
+        margin-right: 0
+    }
+}
+
+.social__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    &:hover{
+        opacity: 0.7;
+    }
+ 
+    i{
+        font-size: 30px;
+        color: #fff;
+    }
+
+    .fa-github{
+        font-size: 50px;
+        color: #000;
+    }
+
+    .fa-whatsapp{
+        font-size: 58px;
+        color: #26d044;
+    }
+}
+
+.social__link-telegram{
+    background-color: #039be5;
+}
+
+.social__link-vk{
+    background-color: #4d76a1;
+}
+
+.social__link-facebook{
+    background-color: #3b5998;
+}
+
+.social__link .fa-vk:hover {
+    color: #fff;
+}
