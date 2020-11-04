@@ -33,32 +33,21 @@ body {
   height: 100%;
 }
 #backTop a {
-<<<<<<< HEAD
   display: block;
   position: fixed;
   right: 20px;
   bottom: 20px;
   color: #89b4cb;
   font-size: 35px;
-=======
-  color: #89b4cb;
-  position: fixed;
-  right: 40px;
-  bottom: 40px;
-  font-size: 40px;
->>>>>>> 3630d260d2e8efdcb9acae991d60a498daf553be
 }
 #backTop a:hover {
   opacity: 0.5;
 }
-<<<<<<< HEAD
 @media (min-width: 1200px) {
   #backTop a {
     display: none;
   }
 }
-=======
->>>>>>> 3630d260d2e8efdcb9acae991d60a498daf553be
 a,
 a:hover {
   text-decoration: none;
@@ -886,11 +875,7 @@ button {
   z-index: 6;
 }
 .mobile-nav-overlay--active {
-<<<<<<< HEAD
   display: none;
-=======
-  display: block;
->>>>>>> 3630d260d2e8efdcb9acae991d60a498daf553be
 }
 .no-scroll {
   overflow: hidden;
@@ -2144,11 +2129,7 @@ button {
   text-align: center;
 }
 .footer-inner__info {
-<<<<<<< HEAD
   margin-bottom: 80px;
-=======
-  margin-bottom: 40px;
->>>>>>> 3630d260d2e8efdcb9acae991d60a498daf553be
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
   color: #161616;
