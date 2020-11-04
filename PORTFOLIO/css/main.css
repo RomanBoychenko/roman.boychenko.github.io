@@ -655,6 +655,7 @@ button {
 @media (min-width: 768px) {
   .header__col-contact {
     width: calc(50% - 16px);
+    max-width: 273px;
   }
 }
 @media (min-width: 1200px) {
@@ -712,12 +713,12 @@ button {
 }
 @media (min-width: 768px) {
   .col-contact__email a {
-    font-size: 20px;
+    font-size: 13px;
   }
 }
 @media (min-width: 1200px) {
   .col-contact__email a {
-    font-size: 24px;
+    font-size: 15px;
   }
 }
 #page-nav {
@@ -1007,7 +1008,7 @@ button {
           flex-direction: row;
 }
 .social__item {
-  margin-right: 30px;
+  margin-right: 13px;
 }
 .social__item:last-child {
   margin-right: 0;
