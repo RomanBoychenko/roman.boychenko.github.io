@@ -293,20 +293,30 @@ button {
   }
   .header-social a:not(:last-child) {
     margin-right: 20px;
+    display: inline-block;
   }
 }
 .header-social i {
   font-size: 30px;
   color: #000;
 }
-.fa-linkedin-in:hover {
-  color: #0077b7;
-}
 .fa-github:hover {
   color: #6cc742;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: -webkit-transform 2s;
+  transition: -webkit-transform 2s;
+  transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s;
 }
 .fa-vk:hover {
   color: #0077b7;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-transition: -webkit-transform 2s;
+  transition: -webkit-transform 2s;
+  transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s;
 }
 .header-content {
   position: relative;
@@ -1347,12 +1357,6 @@ button {
   font-size: 16px;
   line-height: 1.2;
   font-weight: 300;
-}
-.portfolio-item__desc::-moz-selection {
-  background-color: #d4423b;
-}
-.portfolio-item__desc::selection {
-  background-color: #d4423b;
 }
 @media (min-width: 768px) {
   .portfolio-item__desc {
