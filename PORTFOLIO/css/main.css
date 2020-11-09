@@ -259,6 +259,7 @@ button {
 .logo {
   position: relative;
   display: inline-block;
+  margin-left: 95px;
   font-size: 42px;
   font-weight: 900;
   z-index: 2;
@@ -286,6 +287,7 @@ button {
 }
 .header-social {
   display: none;
+  margin-right: 102px;
 }
 @media (min-width: 1200px) {
   .header-social {
@@ -734,7 +736,7 @@ button {
 }
 @media (min-width: 1200px) {
   .col-contact__email a {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 #page-nav {
