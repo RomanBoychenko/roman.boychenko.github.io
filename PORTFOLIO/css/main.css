@@ -1311,6 +1311,12 @@ button {
   line-height: 1.2;
   font-weight: 700;
 }
+.portfolio-item__title::-moz-selection {
+  background-color: #fb4c4c;
+}
+.portfolio-item__title::selection {
+  background-color: #fb4c4c;
+}
 @media (min-width: 768px) {
   .portfolio-item__title {
     margin-bottom: 14px;
@@ -1341,6 +1347,12 @@ button {
   font-size: 16px;
   line-height: 1.2;
   font-weight: 300;
+}
+.portfolio-item__desc::-moz-selection {
+  background-color: #d4423b;
+}
+.portfolio-item__desc::selection {
+  background-color: #d4423b;
 }
 @media (min-width: 768px) {
   .portfolio-item__desc {
@@ -1868,7 +1880,7 @@ button {
 }
 @media (min-width: 1200px) {
   .definition-list__def {
-    width: 20%;
+    width: 80%;
     margin-bottom: 0;
     font-size: 20px;
   }
@@ -1896,7 +1908,7 @@ button {
 }
 @media (min-width: 1200px) {
   .definition-list__desc {
-    width: 78%;
+    width: 100%;
     font-size: 20px;
   }
 }
@@ -2119,6 +2131,8 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
+  top: 80px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -2328,10 +2342,10 @@ button {
   background-color: #ffd200;
 }
 .bedge-jquery {
-  background-color: #044d85;
+  background-color: #853304;
 }
 .bedge-php {
-  background-color: #777bb4;
+  background-color: #f50820;
 }
 .project__content {
   height: 100%;

@@ -41,8 +41,30 @@ $(document).ready(function() {
 	}
 	
 
-    // form-validate
-	$('#form').validate({
+    
+	
+
+	//FORM PLACEHOLDER
+	const formInputs = document.querySelectorAll('.form-field');
+	for (let item of formInputs) {
+		const thisPlaceholder = item.nextElementSibling;
+
+		item.addEventListener('focus', function () {
+			thisPlaceholder.classList.add('active');
+		});
+
+		item.addEventListener('blur', function () {
+
+			if (item.value == '') {
+				thisPlaceholder.classList.remove('active');
+			}
+
+		});
+
+	}
+
+	//FORM VALIDATE
+	$('form').validate({
 		rules: {
 			email: {
 				required: true,
@@ -57,8 +79,8 @@ $(document).ready(function() {
 		},
 		messages: {
 			email: {
-				required: 'Введите Ваш Email',
-				email: 'Отсутствует символ @'
+				required: 'Введите email',
+				email: 'отсутсвует символ @'
 			},
 			theme: {
 				required: 'Введите тему сообщения'
@@ -66,13 +88,8 @@ $(document).ready(function() {
 			message: {
 				required: 'Введите текст сообщения'
 			}
-		},
-
-		submitHandler: function (form) {
-			ajaxFormSubmit();
 		}
-	});
-
+	})
 	// Функция AJAX запрса на сервер
 	function ajaxFormSubmit() {
 		var string = $("#form").serialize(); // Соханяем данные введенные в форму в строку. 
