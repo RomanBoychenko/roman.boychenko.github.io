@@ -1,21 +1,23 @@
 #page-nav {
     display: none;
-
-    @media (min-width: 1200px){
-        display: block;
-        position: fixed;
+ position: fixed;
         right: 20px;
         top: 50%;
         transform: translate(50%, -50%);
         z-index: 100;
+    @media (min-width: 1200px){
+        display: block;
+       
     }
 
     @media (min-width: 1365px){
         right: 60px;
+        display: block;
     }
 
     @media (min-width: 1365px){
         right: 80px;
+        display: block;
     }
 }
  
@@ -29,7 +31,7 @@
 }
 
 #page-nav li a{
-    display: block;
+    display: none;
     height: 100%;
 }
 
