@@ -6,14 +6,14 @@ $c = true;
 // For POST method only!
 
  //Server settings
- $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
- $mail->isSMTP();                                            // Send using SMTP
- $mail->Host       = 'smtp.google.com';                    // Set the SMTP server to send through
- $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
- $mail->Username   = 'boychenko.web@gmail.com';                     // SMTP username
- $mail->Password   = 'secret';                               // SMTP password
- $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
- $mail->Port       = 587;   
+//  $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
+//  $mail->isSMTP();                                            // Send using SMTP
+//  $mail->Host       = 'smtp.google.com';                    // Set the SMTP server to send through
+//  $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
+//  $mail->Username   = 'boychenko.web@gmail.com';                     // SMTP username
+//  $mail->Password   = 'secret';                               // SMTP password
+//  $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
+//  $mail->Port       = 587;   
 
 // Save Basic Form parametrs
 $project_name = trim($_POST["project_name"]);

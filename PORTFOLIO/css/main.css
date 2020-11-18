@@ -837,7 +837,7 @@ button {
   background-color: #89b4cb;
   border-radius: 50%;
   margin-bottom: 15px;
-  transition: 0.5s;
+  transition: .5s;
 }
 #page-nav li a {
   display: none;
@@ -2015,7 +2015,7 @@ button {
 .copyright {
   padding-top: 39px ;
   padding-bottom: 41px ;
-  background-color: #333333;
+  background-color: #333333 ;
 }
 .copyright p {
   color: #b0b0b0;
@@ -2540,3 +2540,4 @@ button {
     letter-spacing: 0.26px;
   }
 }
+/*# sourceMappingURL=main.css.map */
